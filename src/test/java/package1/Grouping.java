@@ -18,9 +18,9 @@ public class Grouping {
 	  }
 
 	
-	@Test(groups= {"regression"})
+	@Test(groups= {"regression","smoke"})
 	public void ActionOnBrowser() {
-		  System.out.println("This will do action on browser");
+		  System.out.println("This will do action on browser opened");
 	  }
 
 }
